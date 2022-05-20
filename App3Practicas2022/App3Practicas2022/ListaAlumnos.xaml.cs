@@ -24,5 +24,16 @@ namespace App3Practicas2022
         {
             lblTitulo.Text = lblTitulo.Text.ToLower();
         }
+
+        private void PonerEnAzul(object sender, EventArgs e)
+        {
+            lblTitulo.SetValue(Label.TextColorProperty, Color.Blue);
+            //lblTitulo.TextColor=Color.Blue; 
+        }
+        private void PonerFondoIndianRed(object sender, EventArgs e)
+        {
+            frmFondo.BackgroundColor = Color.IndianRed;
+            //lblTitulo.TextColor=Color.India; 
+        }
     }
 }

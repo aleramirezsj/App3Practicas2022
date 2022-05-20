@@ -4,7 +4,7 @@
              x:Class="App3Practicas2022.ListaAlumnos">
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="DarkCyan" Padding="24" CornerRadius="0">
+            <Frame x:Name="frmFondo" BackgroundColor="DarkCyan" Padding="24" CornerRadius="0">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="logoisp20.png" VerticalOptions="Center" HeightRequest="44" />
                     <Label x:Name="lblTitulo" Text="Listado de alumnos 2022" HorizontalTextAlignment="Center" 
@@ -28,6 +28,8 @@
             </StackLayout>
             <Button VerticalOptions="Center" Text="Poner en Mayúsculas" Clicked="PonerEnMayúsculas"/>
             <Button VerticalOptions="Center" Text="Poner en Minúsculas" Clicked="PonerEnMinúsculas"/>
+            <Button VerticalOptions="Center" Text="Poner en Azul" Clicked="PonerEnAzul"/>
+            <Button VerticalOptions="Center" Text="Poner Fondo IndianRed" Clicked="PonerFondoIndianRed"/>
 
         </StackLayout>
     </ContentPage.Content>
