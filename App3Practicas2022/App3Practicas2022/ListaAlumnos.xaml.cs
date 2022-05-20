@@ -16,5 +16,13 @@ namespace App3Practicas2022
         {
             InitializeComponent();
         }
+        private void PonerEnMayúsculas(object sender, EventArgs args )
+        {
+            lblTitulo.Text = lblTitulo.Text.ToUpper();
+        }
+        private void PonerEnMinúsculas(object sender, EventArgs args)
+        {
+            lblTitulo.Text = lblTitulo.Text.ToLower();
+        }
     }
 }

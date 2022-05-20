@@ -7,7 +7,7 @@
             <Frame BackgroundColor="DarkCyan" Padding="24" CornerRadius="0">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="logoisp20.png" VerticalOptions="Center" HeightRequest="44" />
-                    <Label Text="Listados de alumnos 2022" HorizontalTextAlignment="Center" 
+                    <Label x:Name="lblTitulo" Text="Listado de alumnos 2022" HorizontalTextAlignment="Center" 
                            TextColor="White" FontSize="Large" VerticalTextAlignment="Center"/>
                 </StackLayout>
             </Frame>
@@ -16,6 +16,19 @@
                 <Label Text="Gabriel Sola" HorizontalTextAlignment="Center" 
                            TextColor="White" FontSize="Large" VerticalTextAlignment="Center"/>
             </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="gabi.jpeg" VerticalOptions="Center" HeightRequest="80" />
+                <Label Text="Gabriel Sola" HorizontalTextAlignment="Center" 
+                           TextColor="White" FontSize="Large" VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="gabi.jpeg" VerticalOptions="Center" HeightRequest="80" />
+                <Label Text="Gabriel Sola" HorizontalTextAlignment="Center" 
+                           TextColor="White" FontSize="Large" VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <Button VerticalOptions="Center" Text="Poner en Mayúsculas" Clicked="PonerEnMayúsculas"/>
+            <Button VerticalOptions="Center" Text="Poner en Minúsculas" Clicked="PonerEnMinúsculas"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
